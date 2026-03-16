@@ -1,0 +1,93 @@
+<!-- Nama  : Melani Putri Zahari
+     Nim   : F1D02410073
+     Kelas : 4D-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Melani</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title center">Website Profil Melani</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <article>
+            <header>
+                <h2 class="center">Tentang Saya</h2>
+                <p>Halo, nama saya <b>Melani Putri Zahari</b>. Saya adalah mahasiswi <i>Teknik Informatika</i> di Universitas Mataram. Saat ini saya sedang mempelajari <u>Pemrograman Web</u> yang mencakup pembuatan website menggunakan HTML dan CSS.</p>
+            </header>
+            <section class="photo-section">
+                <h3 class="center">Foto Saya</h3>
+                <img src="gambar.jpg" alt="Foto Melani" width="200">
+            </section>
+        </article>
+        <section>
+            <h2>Project yang Telah Saya Kerjakan</h2>
+            <table class="table-style">
+                <tr>
+                    <th>Semester</th>
+                    <th>Mata Kuliah</th>
+                    <th>Nama Project</th>
+                    <th>Deskripsi</th>
+                </tr>
+                <tr>
+                    <td>Semester 2</td>
+                    <td>Algoritma Pemrograman</td>
+                    <td>Sistem Giziku</td>
+                    <td>Aplikasi untuk membantu mengatur kebutuhan kalori harian.</td>
+                </tr>
+                <tr>
+                    <td>Semester 3</td>
+                    <td>Struktur Data</td>
+                    <td>Game Arcane</td>
+                    <td>Game sederhana untuk belajar struktur data dan logika program.</td>
+                </tr>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Form Kontak</h2>
+            <form class="form-style">
+
+                <label for="nama">Nama</label><br>
+                <input type="text" id="nama" name="nama" required><br><br>
+                
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="tanggal">Tanggal Lahir</label><br>
+                <input type="date" id="tanggal" name="tanggal" required><br><br>
+                
+                <label>Jenis Kelamin</label><br>
+                <input type="radio" name="gender" required> Laki-laki
+                <input type="radio" name="gender" required> Perempuan
+                <br><br>
+                
+                <label for="pesan">Pesan</label><br>
+                <textarea id="pesan" rows="4" cols="30"></textarea><br><br>
+                
+                <input type="submit" value="Kirim">
+            </form>
+
+            <hr>
+            <h3>Atau hubungi saya melalui:</h3>
+            <p><a href="https://instagram.com/melaniputh" target="_blank">Instagram Saya</a></p>
+            <p><a href="https://wa.me/6285338551679" target="_blank">Chat WhatsApp Saya</a></p>
+        </section>
+    </main>
+    
+    <footer class="footer header-title">
+        <p>© 2026 Website Melani</p>
+    </footer>
+</body>
+</html>
